@@ -77,7 +77,10 @@ footer {
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
+  height: 45vh;
   /* 2. Position and center the image to scale nicely on all screens. */
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-subheading {
