@@ -125,16 +125,24 @@ footer {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+overflow: hidden;
+  
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  filter: brightness(0.5);
 }
-
+.contain {
+  padding: 20px 0;
+}
 /* ================================== */
 /* Adventure details page CSS */
 /* ================================== */
@@ -165,3 +173,4 @@ footer {
     position: fixed;
   }
 }
+
