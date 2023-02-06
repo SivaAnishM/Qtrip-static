@@ -162,14 +162,15 @@ padding: 16px;
   /* 1. Fill in the required properties. */
   height: 100%;
   width: 100%;
-  border-radius: 5px;
-  margin-top: 10px;
+  border-radius:10px;
+  padding: 5px 0;
   object-fit: cover;
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
-  filter: brightness(0.9);
+  filter: brightness(0.7);
+  transition: all 0.3s;
 }
 .experience-content ul li {
   margin-left: 16px;
